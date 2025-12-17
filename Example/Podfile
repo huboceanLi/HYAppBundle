@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HYAppBundle_Example' do
+  pod 'HYAppBundle', :path => '../'
+
+  target 'HYAppBundle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
