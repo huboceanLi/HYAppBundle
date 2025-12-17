@@ -1,0 +1,16 @@
+PODS:
+  - HYAppBundle (0.1.0)
+
+DEPENDENCIES:
+  - HYAppBundle (from `../`)
+
+EXTERNAL SOURCES:
+  HYAppBundle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYAppBundle: b294e4f1e5b2916278a6f01ca75854b022755871
+
+PODFILE CHECKSUM: 1ad58ad00ceddbc1ff1fc36bb3ff0a0670c0d3c2
+
+COCOAPODS: 1.16.2

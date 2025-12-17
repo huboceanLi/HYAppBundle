@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		31B5D8E7287090E63D90F5C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		31B5D8E7287090E63D90F5C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HYAppBundle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYAppBundle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		87B5483288A17D22323990F5 /* Pods_HYAppBundle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYAppBundle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FC078CAFE65D2640133945 /* Pods-HYAppBundle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYAppBundle_Example.debug.xcconfig"; path = "Target Support Files/Pods-HYAppBundle_Example/Pods-HYAppBundle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		947E310B780E689C6D027BC6 /* Pods-HYAppBundle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYAppBundle_Tests.release.xcconfig"; path = "Target Support Files/Pods-HYAppBundle_Tests/Pods-HYAppBundle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A5ADEECB1562E8D6F627F34D /* HYAppBundle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYAppBundle.podspec; path = ../HYAppBundle.podspec; sourceTree = "<group>"; };
+		A5ADEECB1562E8D6F627F34D /* HYAppBundle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYAppBundle.podspec; path = ../HYAppBundle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6650B2A918279BC6C46FE8F /* Pods-HYAppBundle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYAppBundle_Example.release.xcconfig"; path = "Target Support Files/Pods-HYAppBundle_Example/Pods-HYAppBundle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F732D9761D6E7D14F31A382E /* Pods-HYAppBundle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYAppBundle_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HYAppBundle_Tests/Pods-HYAppBundle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FEFF9F100DA6E59A39D75FCF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FEFF9F100DA6E59A39D75FCF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				F732D9761D6E7D14F31A382E /* Pods-HYAppBundle_Tests.debug.xcconfig */,
 				947E310B780E689C6D027BC6 /* Pods-HYAppBundle_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
